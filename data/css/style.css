@@ -1,0 +1,92 @@
+body{
+background-color:blueviolet;
+}
+
+h1{
+    font-family: Lucida Sans Unicode;
+    color: floralwhite;
+}
+
+p{
+    font-family: Lucida Sans Unicode;
+    color: floralwhite;   
+}
+
+::placeholder{
+    font-family: Lucida Sans Unicode;
+    font-size: 100%;
+    color: darkgray;   
+}
+input[id=encrypt]{
+	background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[id=decrypt]{
+    background-color: coral;
+    border:none;
+    color:white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[type=file]{
+    background-color: coral;
+    border:none;
+    color:white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[type=text]
+{
+    padding: 16px 32px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+input[type=submit]{
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.inputfile + label {
+    font-family: Lucida Sans Unicode;
+        padding: 16px 32px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 14px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: darkred;
+}
